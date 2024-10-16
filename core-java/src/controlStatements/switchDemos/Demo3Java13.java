@@ -1,4 +1,4 @@
-package operators.controlStatements.switchDemos;
+package controlStatements.switchDemos;
 
 public class Demo3Java13 {
     public static void main(String[] args) {

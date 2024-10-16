@@ -1,4 +1,4 @@
-package operators.controlStatements.ifElseDemos;
+package controlStatements.ifElseDemos;
 
 public class Demo1 {
     public static void main(String[] args) {
