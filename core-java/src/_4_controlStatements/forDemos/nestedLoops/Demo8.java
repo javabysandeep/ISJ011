@@ -13,6 +13,7 @@ public class Demo8 {
 
          * */
 
+        
         for (int row = 1; row <=6 ; row++) {
 
             for (int space = 6-row; space >0 ; space--) {
