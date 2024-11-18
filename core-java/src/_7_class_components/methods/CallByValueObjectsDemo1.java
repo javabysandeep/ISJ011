@@ -1,6 +1,6 @@
 package _7_class_components.methods;
 
-public class CallByValueObjectsDemo {
+public class CallByValueObjectsDemo1 {
     public static void main(String[] args) {
         BankAccount bankAccount = new BankAccount();
         bankAccount.id = 101;
