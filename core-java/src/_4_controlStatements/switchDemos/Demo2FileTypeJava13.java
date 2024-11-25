@@ -5,7 +5,7 @@ public class Demo2FileTypeJava13 {
         String value = "xml";
         //value : byte, short, int, char, String, enum
         switch (value) {
-            case "xml" -> {
+            /*case "xml" -> {
                 System.out.println("logic to read xml file");
                 System.out.println("logic to read xml file");
                 System.out.println("logic to read xml file");
@@ -17,7 +17,7 @@ public class Demo2FileTypeJava13 {
             case "csv" -> System.out.println("logic to read csv file");
             case "tsv" -> System.out.println("logic to read tsv file");
             case "ppt" -> System.out.println("logic to read ppt file");
-            default -> System.out.println("invalid file type");
+            default -> System.out.println("invalid file type");*/
         }
     }
 }

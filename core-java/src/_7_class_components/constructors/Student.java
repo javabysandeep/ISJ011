@@ -23,13 +23,17 @@ public class Student {
 
 
     //copy constructor
-    public Student(Student student){
+    public Student(Student student) {
         this.id = student.id;
         this.name = student.name;
     }
 
     public static void main(String[] args) {
-        Student student1 = new Student(101,"Chetan");
+        int id = 101;
+        String name = "Chetan";
+//        Student student1 = new Student(101,"Chetan");
+        Student student1 = new Student(id, name);
         Student student2 = new Student(student1);
+        Student student3 = new Student(student2);
     }
 }
