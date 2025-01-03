@@ -25,7 +25,7 @@ public class Demo3 {
 
         Child child = new Child();
         child.m1();
-        Child.main(null);
+        Child.main(new String[]{"abc","xyz"});
         Parent.main(null);
     }
 }
