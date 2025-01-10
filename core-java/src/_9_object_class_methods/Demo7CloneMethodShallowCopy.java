@@ -2,7 +2,7 @@ package _9_object_class_methods;
 
 import lombok.*;
 
-public class Demo7CloneMethod {
+public class Demo7CloneMethodShallowCopy {
     public static void main(String[] args) throws CloneNotSupportedException {
         @AllArgsConstructor
         @NoArgsConstructor
