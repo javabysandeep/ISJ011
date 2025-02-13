@@ -1,6 +1,4 @@
-package _16_collection;
-
-import java.util.ArrayList;
+package _16_collection.listImpl;
 
 public class Demo1 {
     public static void main(String[] args) {

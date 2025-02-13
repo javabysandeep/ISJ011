@@ -1,4 +1,4 @@
-package _16_collection;
+package _16_collection.listImpl;
 
 public class CustomArrayList {
     int capacity = 10;

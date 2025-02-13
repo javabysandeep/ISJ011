@@ -1,4 +1,4 @@
-package _16_collection;
+package _16_collection.listImpl;
 
 public class Demo2 {
     public static void main(String[] args) {
