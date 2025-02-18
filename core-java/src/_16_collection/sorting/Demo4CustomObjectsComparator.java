@@ -24,7 +24,9 @@ public class Demo4CustomObjectsComparator {
 
         Comparator<Actor> idComparator = (a1, a2) -> a1.getId() - a2.getId();
         Comparator<Actor> salaryComparator = (a1, a2) -> (int) (a1.getSalary() - a2.getSalary());
-        Comparator<Actor> nameComparator = (a1, a2) -> a1.getName().compareTo(a2.getName());
+        Comparator<Actor> nameComparator = (a1, a2) -> {
+            return a1.getName().compareTo(a2.getName());
+        };
 
         Collections.sort(actorList, nameComparator);
 
