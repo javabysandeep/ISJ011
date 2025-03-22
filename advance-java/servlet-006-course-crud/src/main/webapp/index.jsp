@@ -8,6 +8,7 @@
 <a href="http://localhost:8080/servlet_006_course_crud_war/getAllCourses"> Get All Courses</a> <br/>
 <a href="login.html">Login</a> <br/>
 <a href="search.html">Search Page</a> <br/>
+<a href="cookie.html">Cookie Page</a> <br/>
 
 </body>
 </html>

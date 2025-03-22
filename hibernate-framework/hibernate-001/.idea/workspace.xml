@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad95807f-db93-411f-816f-16a46cca8081" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itshaala/Demo1SaveJavaObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/itshaala/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../advance-java/servlet-006-course-crud/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../advance-java/servlet-006-course-crud/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../advance-java/servlet-007-http-session-login-logout/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../advance-java/servlet-007-http-session-login-logout/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../advance-java/servlet-007-http-session-login-logout/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../advance-java/servlet-007-http-session-login-logout/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2uZV1tILvJAawzTBEsO7bmcZ2N7" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -41,30 +37,30 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Debug",
-    "Application.Demo1SaveJavaObject.executor": "Run",
-    "Application.Demo2UpdateJavaObject.executor": "Run",
-    "Application.Demo3DeleteJavaObject.executor": "Run",
-    "Application.Demo4GetJavaObject.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Demo1SaveJavaObject.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo2UpdateJavaObject.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo3DeleteJavaObject.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo4GetJavaObject.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.itshaala" />
@@ -148,7 +144,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742455872481</updated>
-      <workItem from="1742455873744" duration="2306000" />
+      <workItem from="1742455873744" duration="2545000" />
+      <workItem from="1742468424471" duration="46000" />
     </task>
     <servers />
   </component>
