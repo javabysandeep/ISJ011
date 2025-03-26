@@ -22,7 +22,6 @@ public class CandidateDao {
     @SneakyThrows
     public void addCandidate(Candidate candidate) {
         //logic to add data in the database
-
         String query = "insert into candidate(name, email, phone, address) values(?,?,?,?)";
         Connection connection = connectionUtil.getConnection();
         PreparedStatement ps = connection.prepareStatement(query);

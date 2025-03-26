@@ -16,6 +16,10 @@ public class ConnectionUtil {
 
     private Environment env;
 
+   /* public ConnectionUtil(Environment env) {
+        this.env = env;
+    }*/
+
     public Connection getConnection() {
         Connection connection = null;
         String url = env.getProperty("mysql.url");
