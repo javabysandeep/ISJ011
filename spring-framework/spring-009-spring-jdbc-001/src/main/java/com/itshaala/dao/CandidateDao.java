@@ -19,18 +19,13 @@ public class CandidateDao {
     public void add(Candidate candidate) {
         //logic to add data in the database
         String query = "insert into candidate(name, email, phone, address) values(?,?,?,?)";
-
         PreparedStatementSetter pss = ps -> {
             ps.setString(1, candidate.getName());
             ps.setString(2, candidate.getEmail());
             ps.setString(3, candidate.getPhone());
             ps.setString(4, candidate.getAddress());
         };
-
-
         jdbcTemplate.update(query, pss);
-
-
         System.out.println("Candidate added");
     }
 
@@ -57,27 +52,26 @@ public class CandidateDao {
     }
 
     public List<Candidate> getAllCandidates() {
-
         String query = "select * from candidate";
-
-        RowMapper<Candidate> rowMapper = (resultSet, rowNum) -> {
-            Candidate candidate = Candidate.builder()
-                    .id(resultSet.getInt("id"))
-                    .name(resultSet.getString("name"))
-                    .email(resultSet.getString("email"))
-                    .phone(resultSet.getString("phone"))
-                    .address(resultSet.getString("address"))
-                    .build();
-            return candidate;
+        RowMapper<Candidate> rowMapper =  new RowMapper<Candidate>() {
+            @Override
+            public Candidate mapRow(ResultSet resultSet, int rowNum) throws SQLException {
+                    Candidate candidate = Candidate.builder()
+                            .id(resultSet.getInt("id"))
+                            .name(resultSet.getString("name"))
+                            .email(resultSet.getString("email"))
+                            .phone(resultSet.getString("phone"))
+                            .address(resultSet.getString("address"))
+                            .build();
+                    return candidate;
+            }
         };
-
         List<Candidate> candidateList = jdbcTemplate.query(query, rowMapper);
         return candidateList;
-
     }
 
     public Candidate getById(int id) {
-        String query = "select * from candidate where id="+id;
+        String query = "select * from candidate where id=" + id;
 
         RowMapper<Candidate> rowMapper = (resultSet, rowNum) -> {
             Candidate candidate = Candidate.builder()

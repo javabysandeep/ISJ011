@@ -30,12 +30,11 @@ public class App {
                 .phone("+XX XXXXX XXXXX")
                 .build());*/
        /* controller.deleteById(4);*/
-        /*
         List<Candidate> candidateList = controller.getAllCandidates();
-        candidateList.forEach(System.out::println);*/
+        candidateList.forEach(System.out::println);
 
-        Candidate candidate = controller.getById(18);
-        System.out.println(candidate);
+      /*  Candidate candidate = controller.getById(18);
+        System.out.println(candidate);*/
 
     }
 }

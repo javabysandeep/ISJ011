@@ -10,6 +10,7 @@ import java.util.List;
 @Service
 @AllArgsConstructor
 public class CandidateService {
+
     private CandidateDao candidateDao;
 
     public void add(Candidate candidate) {
