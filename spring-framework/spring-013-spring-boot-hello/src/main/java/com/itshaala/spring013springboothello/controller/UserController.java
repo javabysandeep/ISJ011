@@ -1,20 +1,22 @@
-package com.itshaala.controller;
+package com.itshaala.spring013springboothello.controller;
 
-import com.itshaala.model.User;
-import com.itshaala.service.UserService;
+import com.itshaala.spring013springboothello.model.User;
+import com.itshaala.spring013springboothello.service.UserService;
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
-import java.time.LocalDateTime;
-
 @AllArgsConstructor
+@NoArgsConstructor
 @Controller
 @RequestMapping("/auth")
 public class UserController {
 
-    private final UserService userService;
+    @Autowired
+    private UserService userService;
 
     @GetMapping("/form")
     public String form() {
@@ -23,8 +25,8 @@ public class UserController {
 
     @PostMapping("/register")
     public ModelAndView register(@ModelAttribute User user) {
-        user.setCreatedAt(LocalDateTime.now());
-        user.setUpdatedAt(LocalDateTime.now());
+        //  user.setCreatedAt(LocalDateTime.now());
+        // user.setUpdatedAt(LocalDateTime.now());
         userService.saveUser(user);
         ModelAndView mav = new ModelAndView();
         mav.setViewName("register-success");
