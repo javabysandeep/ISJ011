@@ -33,5 +33,5 @@ public class Job {
 
     @ManyToOne
     @JoinColumn(name = "user_id")
-    private User postedBy;
+    private User user;
 }

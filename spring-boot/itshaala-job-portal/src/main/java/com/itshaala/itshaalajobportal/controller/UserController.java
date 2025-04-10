@@ -1,5 +1,6 @@
 package com.itshaala.itshaalajobportal.controller;
 
+import com.itshaala.itshaalajobportal.dto.UserDto;
 import com.itshaala.itshaalajobportal.model.User;
 import com.itshaala.itshaalajobportal.service.UserService;
 import lombok.AllArgsConstructor;
@@ -19,8 +20,8 @@ public class UserController {
     }
 
     @GetMapping(value = "/user/{id}", produces = "application/json")
-    public User getUserById(@PathVariable int id) {
-        User userById = userService.getUserById(id);
+    public UserDto getUserById(@PathVariable int id) {
+        UserDto userById = userService.getUserById(id);
         return userById;
     }
 

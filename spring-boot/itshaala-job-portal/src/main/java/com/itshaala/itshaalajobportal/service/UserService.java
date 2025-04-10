@@ -1,6 +1,8 @@
 package com.itshaala.itshaalajobportal.service;
 
 import com.itshaala.itshaalajobportal.dao.UserDao;
+import com.itshaala.itshaalajobportal.dto.UserDto;
+import com.itshaala.itshaalajobportal.mapper.UserMapper;
 import com.itshaala.itshaalajobportal.model.User;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -23,8 +25,8 @@ public class UserService {
         return userDao.save(user);
     }
 
-    public User getUserById(int id) {
-        return userDao.findById(id).get();
+    public UserDto getUserById(int id) {
+        return UserMapper.getUserDto(userDao.findById(id).get());
     }
 
     public List<User> getAllUsers() {

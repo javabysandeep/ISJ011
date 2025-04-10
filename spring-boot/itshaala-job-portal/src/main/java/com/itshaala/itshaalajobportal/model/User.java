@@ -39,6 +39,6 @@ public class User {
     @Column(name = "updated_at")
     private LocalDateTime updatedAt;
 
-    @OneToMany(mappedBy = "postedBy", cascade = CascadeType.ALL)
-    private List<Job> jobPosted;
+    @OneToMany(mappedBy = "user", fetch = FetchType.EAGER)
+    private List<Job> jobs;
 }
